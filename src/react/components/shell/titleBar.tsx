@@ -62,6 +62,7 @@ export class TitleBar extends React.Component<ITitleBarProps, ITitleBarState> {
     }
 
     public render() {
+        console.log(this.props);
         if (this.state.fullscreen) {
             return null;
         }

@@ -87,7 +87,7 @@ export function registerIcons() {
             System: "\uE770",
             Table: "\uED86",
             Tag: "\uE8EC",
-            TagGroup: "\uE3F6",
+            TagGroup: null,
             TextDocument: "\uF029",
             TextField: "\uEDC3",
             Up: "\uE74A",

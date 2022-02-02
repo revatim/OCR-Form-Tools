@@ -31,7 +31,7 @@ export class StatusBar extends React.Component<IStatusBarProps, IStatusBarState>
         return (
             <div className="status-bar">
                 <div className="status-bar-main">{this.props.children}</div>
-                <div className="status-bar-version">
+                {/* <div className="status-bar-version">
                     <ul>
                         {this.props.project &&
                             <li>
@@ -48,7 +48,7 @@ export class StatusBar extends React.Component<IStatusBarProps, IStatusBarState>
                             </a>
                         </li>
                     </ul>
-                </div>
+                </div> */}
             </div>
         );
     }
